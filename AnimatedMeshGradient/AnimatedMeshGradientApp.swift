@@ -2,7 +2,7 @@
 //  AnimatedMeshGradientApp.swift
 //  AnimatedMeshGradient
 //
-//  Created by Astemir Eleev on 11/6/24.
+//  Created by Astemir Eleev on 6/11/24.
 //
 
 import SwiftUI
@@ -11,7 +11,8 @@ import SwiftUI
 struct AnimatedMeshGradientApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            MeshGradientView()
+                .statusBarHidden()
         }
     }
 }

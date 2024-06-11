@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		A91563CC2C188216004D7747 /* AnimatedMeshGradientApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A91563CB2C188216004D7747 /* AnimatedMeshGradientApp.swift */; };
-		A91563CE2C188216004D7747 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A91563CD2C188216004D7747 /* ContentView.swift */; };
+		A91563CE2C188216004D7747 /* MeshGradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A91563CD2C188216004D7747 /* MeshGradientView.swift */; };
 		A91563D02C188217004D7747 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A91563CF2C188217004D7747 /* Assets.xcassets */; };
 		A91563D32C188217004D7747 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A91563D22C188217004D7747 /* Preview Assets.xcassets */; };
 /* End PBXBuildFile section */
@@ -16,7 +16,7 @@
 /* Begin PBXFileReference section */
 		A91563C82C188216004D7747 /* AnimatedMeshGradient.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AnimatedMeshGradient.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A91563CB2C188216004D7747 /* AnimatedMeshGradientApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimatedMeshGradientApp.swift; sourceTree = "<group>"; };
-		A91563CD2C188216004D7747 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		A91563CD2C188216004D7747 /* MeshGradientView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeshGradientView.swift; sourceTree = "<group>"; };
 		A91563CF2C188217004D7747 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A91563D22C188217004D7747 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -52,7 +52,7 @@
 			isa = PBXGroup;
 			children = (
 				A91563CB2C188216004D7747 /* AnimatedMeshGradientApp.swift */,
-				A91563CD2C188216004D7747 /* ContentView.swift */,
+				A91563CD2C188216004D7747 /* MeshGradientView.swift */,
 				A91563CF2C188217004D7747 /* Assets.xcassets */,
 				A91563D12C188217004D7747 /* Preview Content */,
 			);
@@ -137,7 +137,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A91563CE2C188216004D7747 /* ContentView.swift in Sources */,
+				A91563CE2C188216004D7747 /* MeshGradientView.swift in Sources */,
 				A91563CC2C188216004D7747 /* AnimatedMeshGradientApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
