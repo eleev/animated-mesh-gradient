@@ -11,6 +11,7 @@
 		A91563CE2C188216004D7747 /* MeshGradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A91563CD2C188216004D7747 /* MeshGradientView.swift */; };
 		A91563D02C188217004D7747 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A91563CF2C188217004D7747 /* Assets.xcassets */; };
 		A91563D32C188217004D7747 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A91563D22C188217004D7747 /* Preview Assets.xcassets */; };
+		A91563DB2C188821004D7747 /* demo.gif in Resources */ = {isa = PBXBuildFile; fileRef = A91563D92C188821004D7747 /* demo.gif */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		A91563CD2C188216004D7747 /* MeshGradientView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeshGradientView.swift; sourceTree = "<group>"; };
 		A91563CF2C188217004D7747 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A91563D22C188217004D7747 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		A91563D92C188821004D7747 /* demo.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = demo.gif; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,6 +37,7 @@
 		A91563BF2C188216004D7747 = {
 			isa = PBXGroup;
 			children = (
+				A91563DA2C188821004D7747 /* Assets */,
 				A91563CA2C188216004D7747 /* AnimatedMeshGradient */,
 				A91563C92C188216004D7747 /* Products */,
 			);
@@ -65,6 +68,14 @@
 				A91563D22C188217004D7747 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		A91563DA2C188821004D7747 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				A91563D92C188821004D7747 /* demo.gif */,
+			);
+			path = Assets;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -126,6 +137,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A91563D32C188217004D7747 /* Preview Assets.xcassets in Resources */,
+				A91563DB2C188821004D7747 /* demo.gif in Resources */,
 				A91563D02C188217004D7747 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
